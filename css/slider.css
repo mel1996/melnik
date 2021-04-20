@@ -1,0 +1,184 @@
+
+/* slider */
+.slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+.slick-slide,
+.slick-list,
+.slick-track  {
+    width: 100%;
+    height: 100%;
+}
+/* media */
+@media screen and (max-width: 1227px) {
+    body header .container .menu_top {
+        justify-content: center;
+    }
+    body main .container article {
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+body header .container h1 {
+    margin-left: 65px;
+    font-size: 53px;
+    display: block;
+    text-align: center;
+    }
+    body header .container .menu_centre ul li {
+        padding-left: 8px;
+    }
+    body header .container .menu_centre {
+        margin-right: 120px;
+        margin-left: 120px;
+    }
+    body main .container section div .bottle {
+        margin-left: 10px;
+    }
+    body header .container .menu_centre .btn {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    /* body header .container .menu_top nav.flex {
+        display: none;
+    } */
+    body header .container .menu_centre .btn .round {
+        margin: 5px;
+    }
+    body header .container .menu_top {
+        margin-bottom: 20px;
+        display: block;
+    }
+    body .flex {
+        justify-content: center;
+    }
+    body header .container .menu_centre {
+        height: auto;
+        width: 311px;
+        white-space: wrap;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    body header .container .menu_centre ul.flex {
+        display: block;
+        margin: 0;
+    }
+    body header .container .menu_centre .btn {
+        margin: 0;
+    }
+    body header .container .menu_centre ul li {
+        padding: inline start 0;
+    }
+    .triangle-right { 
+        display: none;
+    }
+    ul {
+        padding: 0;
+    }
+    body header .container .menu_centre ul li {
+        padding-left: 0;
+        padding: 10px;
+    }
+    body header .container .menu_centre ul li a {
+        justify-content: center;
+    }
+    body header .container .menu_centre ul li:hover {
+        background-color: antiquewhite;
+        font-size: 18px;
+    }
+    body main .container article {
+        top: 0;
+        text-align: center;
+    } 
+    body main .container.flex {
+        padding: 20px;
+        
+    }
+    body main .container section div .bottle {
+        margin: 0;
+    }
+    body main .container section div aside {
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    body main .container section div aside .flex_star {
+        margin-top: 0px;
+    }
+    body main .container article .table_line {
+        padding: 12px;
+    }
+    body header .container {
+        text-align: center;
+    }
+    body header .container h1 {
+        display: inline;
+        margin: 0;
+        line-height: 38px;
+        font-size: 34px;
+    }
+    body header .container {
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 970px) {
+    body main .container article {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    body main .wheat {
+        display: none;
+    }
+    body main .container.flex {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    body main .container section .more {
+        margin-bottom: 50px;
+    }
+    section div.flex {
+        margin-top: 30px;
+    }
+
+}
+@media screen and (max-width: 660px) {
+    body header .container h1 {
+        display: none;
+    }
+    body nav.flex {
+        display: block;
+    }
+    body header .container .menu_top nav select {
+        margin: 0;
+    }
+    body header .container .menu_top nav ul {
+        justify-content: center;
+        display: block;
+    }
+    body header .container .menu_top nav ul li {
+        margin-left: 0;
+    }
+}   
+
+@media screen and (max-width: 600px) {
+    section div.flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    body main .container section .more {
+        margin-left: 0;
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+    }
+    body main .container section .more div {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+  
